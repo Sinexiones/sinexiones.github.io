@@ -1,1 +1,2 @@
-# slaseguros.github.io
+# Sitio web de Sinexiones
+Sitio web estático de Sinexiones, informativo
