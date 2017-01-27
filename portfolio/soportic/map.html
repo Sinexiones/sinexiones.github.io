@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #map {
+                width: 100%;
+                height: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var mapDiv = document.getElementById('map');
+                var map = new google.maps.Map(mapDiv, {
+                    center: {lat: 4.503788, lng: -74.114812},
+                    zoom: 17
+                });
+                var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(4.503788, -74.114812),
+                title: 'Soportic',
+                animation: "DROP",
+                map: map,
+                icon: "marcador.fw.png"
+            });
+            }
+//            var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+            
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+    </body>
+</html>

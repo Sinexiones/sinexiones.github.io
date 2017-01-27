@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body{
+    background-color: #fffaf0;
+    color: #333;
+    overflow-x: hidden;
+    width:100%;
+}
+/*Barra de navegación, gris y mediana*/
+#main-nav{
+    height:100px;
+    box-shadow: none;
+}
+/*Centra el logo*/
+#logo-container{
+    margin: 1rem 0;
+}
+
+
+/*Container un poco más ancho que el que viene por defecto*/
+.sx-wide-container{
+    margin: 0 auto !important;
+    width: 90%;
+}
+
+#te_llamamos{
+    margin-top: 2rem;
+    /*border-radius:10px;*/
+    font-weight: 400;
+    font-size: 1.2rem;
+
+}
+
+.parallax-container h1, .parallax-container h2{
+    font-family: 'Open Sans', sans-serif;
+}
+.input-field{
+    line-height: 1.5;
+}
+/*label{
+    color:white;
+}*/
+#form_expert{
+    padding:4rem 5rem 13rem 5rem;
+    position:relative;
+}
+#photo_expert{
+    padding:0;
+}
+#numbero{
+    position:absolute;
+    background: #999;
+    padding: 1rem 2rem ;
+    border-radius: 5px 5px 0 0 ;
+    bottom:0;
+    left:30rem;
+    margin:0;
+}
+
+#confianza{
+    height: 46.25rem;
+}
+#map {
+    width: 100%;
+    height: 300px;
+}
+
+.ofrecemos i{
+    margin: 27% 0;
+    font-size:7rem;
+    color: white;
+}
+
+.ofrecemos i{
+    margin: 0;
+    font-size:10rem;
+}
+
+.ofrecemos h4{
+    color: #333;
+}
+.ofrecemos h2{
+    margin:9rem 0 4rem 0;
+    font-size:3.3rem;
+}
+
+.ofrecemos .container .circle{
+    width: 90%;
+}
+
+#p-confianza{
+    font-size: 1.7rem;
+}
+#texto_confianza{
+    padding: 1rem;
+    box-shadow: inset 0px 0px 10px 1px rgba(50, 50, 50, 0.3);
+}
+
+.diferencial{
+    position: relative;
+}
+.diferencial, .diferencial>div{
+    margin:0;
+}
+.diferencial h5{
+    font-size: 2rem;
+    margin: 2rem 0 1rem 0;
+}
+.diferencial li{
+    font-size: 1.2rem;
+    text-align: left;
+}
+.diferencial li:before{
+    content: "\f054 "; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li*/
+}
+
+.diferencial .s5{
+    padding: 2rem;
+}
+
+#formulario_pregunta{
+    color: #333;
+    border-radius: 30px;
+}
+
+#formulario_pregunta form{
+    padding: 3rem 0;
+
+}
+
+.parallax-container {
+    min-height: 580px;
+}
+#telefono, #telefono *{
+    margin:0;
+}
+#telefono{
+    padding: 8rem 0;
+}
+#telefono h3{
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+#nuestros_servicios{
+    padding: 5rem 0;
+}
+
+#nuestros_servicios h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 4.6rem;
+}
+
+#nuestros_servicios h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color:#29d9c2;
+}
+#nuestros_servicios li{
+    margin: 2rem 0;
+    font-size: 1rem;
+
+}
+
+/*ul {
+  list-style: none;
+  padding: 0;
+}*/
+li {
+    padding-left: 1.3em;
+}
+#nuestros_servicios li:before {
+    content: "\f054 "; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+    color:#29d9c2;
+}
+#nuestros_servicios a{
+    color: #333;
+}
+
+
+@media only screen and (min-width : 600px) {
+    #index-banner .no-pad-bot {
+        top: 0;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #main-nav{
+        height: 6rem;
+    }
+    #logo-container img{
+        width: 150%;
+        max-width: 330px;
+        max-height: 80px;
+        
+        
+    }
+    #logo-container{
+        right: auto;
+    }
+}
+
+
+.diferencial .m5{
+    padding: 2rem 0;
+}
+
+.ofrecemos p{
+    padding-bottom: 3rem;
+}
