@@ -1,0 +1,35 @@
+/*
+
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/01/2017, 05:14:30 PM
+    Author     : Sinexiones
+*/
+@import url('https://fonts.googleapis.com/css?family=Arsenal|Lato');
+
+body{   
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #555;
+}
+h1{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 3rem;
+    color:  #777;
+}
+a{ 
+    font-family: monospace;
+    color: #F4645F;
+}
+
+#logo-sinexiones{
+    height: 1rem;
+    margin-bottom: -0.2rem;
+}
+#footer{
+    margin-top: 100px;
+}
+
